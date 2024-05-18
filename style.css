@@ -18,7 +18,7 @@ html,body{
 }
 
 @font-face {
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee;
     src: url('./asset/fonts/kenyan\ coffee\ bd.otf');
 }
 
@@ -85,7 +85,7 @@ html,body{
 }
 
 .hamburger-list > li{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee;
     font-size: 1.5rem;
     color: #fff;
     list-style: none;
@@ -113,7 +113,7 @@ html,body{
 }
 
 .section-one > h1{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee;
     font-size: 3.75rem;
     width: 75%;
     margin-bottom: 0;
@@ -173,7 +173,7 @@ html,body{
 }
 
 .section-three > h1{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee;
     font-size: 2.813rem;
 }
 
@@ -213,7 +213,7 @@ html,body{
 }
 
 .card > h1{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee ;
     font-size: 3.438rem;
     color: #fff;
     width: 80%;
@@ -314,7 +314,7 @@ html,body{
 }
 
 .section-five > h1{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee ;
     font-size: 3.438rem;
     color: #fff;
     width: 80%;
@@ -353,7 +353,7 @@ html,body{
 
 
 .section-six > h1{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee;
     font-size: 2.813rem;
     color: #121212;
 }
@@ -417,7 +417,7 @@ html,body{
 }
 
 .sub-section-seven-one > h1{
-    font-family: Kenyan coffee , sans-serif;
+    font-family: Kenyan coffee ;
     font-size: 2.813rem;
 }
 
@@ -719,7 +719,7 @@ html,body{
     }
     
     .card > h1{
-        font-family: Kenyan coffee , sans-serif;
+        font-family: Kenyan coffee;
         font-size: 3.438rem;
         color: #fff;
         width: 80%;
