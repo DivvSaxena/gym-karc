@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+}
+
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: Kenyan coffee , sans-serif;
+    src: url('./asset/fonts/kenyan\ coffee\ bd.otf');
+}
+
+
+
+/* HEADER STYLING */
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > img{
+    width: 35%;
+    margin: 0.5em 0.5em 0.5em 2em;
+    padding: 1em;
+}
+
+.hamburger{
+    display: flex;
+    justify-content: end;
+    margin-right: 2em;
+}
+
+.right{
+    display: none;
+    color: #fff;
+}
+
+.right > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right > ul > li > a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* SECTION ONE STYLING */
+
+.section-first{
+    background: url('./asset/bg-1\ 1.png');
+    background-size: cover;
+    height: 630px;
+    background-position: center;
+}
+
+.section-one{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 1em;
+    color: #fff;
+}
+
+.section-one > h1{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 3.75rem;
+    width: 75%;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+.section-one > h2{
+    font-weight: 400;
+    font-size: 1rem;
+    width: 82%;
+    margin: 1em 0 2em 0;
+}
+
+.section-one > button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* SECTION TWO STYLING */
+
+.section-two{
+    background: linear-gradient(90deg, #F9F383 0%, #F14553 49.4%, #19477E 100%);
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-two > h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    width: 85%;
+}
+
+/* SECTION THREE STYLING */
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.section-three > h1{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 2.813rem;
+}
+
+.slab-one{
+    background: linear-gradient(to right, #F9F383 0%, #F14553 49.4%, #19477E 100%);
+    width: 45%;
+    height: 30px;
+    position: absolute;
+    top: 4.2em;
+    z-index: -1;
+}
+
+.section-three > h2{
+    font-size: 1rem;
+    font-weight: 300;
+    width: 78%;
+    text-align: center;
+}
+
+.cards{
+    margin-top: 1.5em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.card{
+    height: 420px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > h1{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 3.438rem;
+    color: #fff;
+    width: 80%;
+}
+
+.card-one{
+    background: url('./asset/cards/course-1.png');
+    background-size: cover;
+}
+
+.card-two{
+    background: url('./asset/cards/course-2.png');
+    background-size: cover;
+}
+
+.card-three{
+    background: url('./asset/cards/course-3.png');
+    background-size: cover;
+}
+
+.card-four{
+    background: url('./asset/cards/course-4.png');
+    background-size: cover;
+}
+
+
+.card-five{
+    background: url('./asset/cards/course-5.png');
+    background-size: cover;
+}
+
+
+.card-six{
+    background: url('./asset/cards/course-6.png');
+    background-size: cover;
+}
+
+
+/* SECTION FOUR STYLING */
+
+.section-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 2.5em;
+    z-index: 4;
+    margin-bottom: 6.1em;
+}
+
+.video-one{
+    width: 90%;
+    height: 577px;
+    background: #D9D9D9;
+}
+
+.dark-bg{
+    width: 100%;
+    height: 419px;
+    background: #121212;
+    position: absolute;
+    z-index: -1;
+    top: 16em;
+}
+
+/* SECTION FIVE STYLING */
+
+.section-five{
+    background: url('./asset/section-3-updated.png');
+    background-size: cover;
+    height: 652px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+}
+
+.section-five > h1{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 3.438rem;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.slab-two{
+    background: linear-gradient(to right, #F9F383 0%, #F14553 49.4%, #19477E 100%);
+    width: 45%;
+    height: 30px;
+    z-index: -1;
+    position: absolute;
+    top: auto;
+    bottom: 16em;
+}
+
+/* SECTION SIX STYLING */
+
+.section-six{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    position: relative;
+    z-index: 2;
+}
+
+.slab-three{
+    background: linear-gradient(to right, #F9F383 0%, #F14553 49.4%, #19477E 100%);
+    width:35%;
+    height: 30px;
+    position: absolute;
+    top: 4em;
+    z-index: -1;
+}
+
+
+.section-six > h1{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 2.813rem;
+    color: #121212;
+}
+
+.section-six > h2{
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.section-six > button{
+    background-color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5em;
+}
+
+.section-six-img{
+    background: url('./asset/section-six.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 369px;
+    margin-top: 4em;
+}
+
+/* SECTION SEVEN STYLING */
+
+.section-seven,
+.sub-section-seven-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.section-seven{
+    background-color: #121212;
+    position: relative;
+    z-index: 2;
+}
+
+.sub-section-seven-one > h1{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 2.813rem;
+}
+
+.slab-four{
+    background: linear-gradient(to right, #F9F383 0%, #F14553 49.4%, #19477E 100%);
+    width:40%;
+    height: 30px;
+    position: absolute;
+    top: 4em;
+    z-index: -1;
+}
+
+.sub-section-seven-one > h2{
+    font-size: 1rem;
+    width: 80%;
+    font-weight: 200;
+}
+
+
+.btns > button{
+    margin-left: 1em;
+    width: 150px;
+    height: 37px;
+    background: #FFFFFF;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    border: none;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+.map{
+    width: 75%;
+    height: 224px;
+    background: #D9D9D9;
+    margin: 2em auto 4em;
+}
+
+/* SECTION EIGHT STYLING */
+
+.section-eight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-two{
+    width: 90%;
+    height: 463px;
+    background: #BAA3A3;
+    border: 1px solid #000000;
+    margin: 2em auto 4em;
+}
+
+
+/* FOOTER STYLNIG */
+
+.footer{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.footer > img{
+    width: 30%;
+    margin-top: 1em;
+}
+
+.sub-footer,
+.footer-one{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+
+.footer-one > h2,
+.footer-two > h2,
+.footer-three > h2{
+    font-size: 0.875rem;
+    font-weight: 900;
+    margin-top: 2.5em;
+}
+
+.footer-one > h3,
+.footer-two > h3{
+    font-size: 1rem;
+    font-weight: 400;
+    width: 50%;
+    margin-top: 0;
+}
+
+.sub-footer-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-two{
+    width: 65%;
+}
+
+.sub-footer-two > h3{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.sub-footer-two > h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.three > h4{
+    margin-right: 2em;
+}
+
+.footer-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sub-footer-socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.sub-footer-socials > img{
+    width: 12%;
+    margin: 1em;
+}
+
+.content-footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em auto;
+    gap: 40px;
+}
+
+.footer > h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+.footer > h3{
+    font-size: 0.75rem;
+    font-weight: 100;
+}
+
+@media (min-width:376px) {
+    .container{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .container{
+        max-width: 500px;
+    }
+}
+
+
+@media (min-width:1023px) {
+
+
+    .container{
+        max-width: 100%;
+    }
+
+    .header > img{
+        width: 12%;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+
+    .right{
+        display: flex;
+        width: 60%;
+    }
+
+    .right > ul > li{
+        margin-left: 2.5em;
+        cursor: pointer;
+    }
+
+    /* SECTION ONE STYLING */
+
+    .section-first{
+        height: 882px;
+    }
+
+    .section-one{
+        margin-left: 8em;
+    }
+
+    .section-one > h1{
+        font-size: 7.5rem;
+        width: 60%;
+    }
+
+    .section-one > h2{
+        width: 40%;
+    }
+
+    .section-one > button{
+        width: 203px;
+        height: 51px;
+    }
+
+    /* SECTION TWO STYLNIG */
+
+    .section-two > h2{
+        width: 75%;
+    }
+
+    /* SECTION THREE STYLING */
+    
+    .section-three > h1{
+        font-size: 5.625rem;
+        margin-bottom: 0.5em;
+    }
+
+    .slab-one{
+        top: 9em;
+        width: 35%;
+        height: 50px;
+    }
+
+    .section-three > h2{
+        width: 50%;
+    }
+
+    .cards{
+        margin-top: 1.5em;
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    .card{
+        height: 420px;
+        width: 275px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card > h1{
+        font-family: Kenyan coffee , sans-serif;
+        font-size: 3.438rem;
+        color: #fff;
+        width: 80%;
+    }
+
+    /* SECTION FOUR STYLING */
+
+    .video-one{
+        height: 390px;
+    }
+
+    .dark-bg{
+        height: 350px;
+        top: 10em;
+    }
+
+    /* SECTION FIVE STYLING */
+
+    .section-five > h1{
+        font-size: 5.5rem;
+    }
+
+    .slab-two{
+        top: 22em;
+        left: 12em;
+    }
+
+    /* SECTION SIX STYLING */
+
+    .section-six > h1{
+        font-size: 5.625rem;
+        margin-bottom: 0.5em;
+    }
+
+    .slab-three{
+        top: 9em;
+        width: 35%;
+        height: 50px;
+    }
+
+    .section-six > h2{
+        width: 50%;
+    }
+
+    .section-six-img{
+        height: 850px;
+    }
+
+    /* SECTION SEVEN STYLING */
+
+    .section-seven{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        height: 600px;
+    }
+
+    .sub-section-seven-one{
+        align-items: start;
+        padding-left: 5em;
+    }
+
+    .sub-section-seven-one > h1{
+        font-size: 5.625rem;
+        margin-bottom: 0.5em;
+        margin-top: 0;
+    }
+
+    .slab-four{
+        top: 13em;
+    }
+
+    .map{
+        width: 30%;
+        height: 264px;
+        background: #D9D9D9;
+        margin: 2em auto 4em;
+    }
+
+    /* SECTION EIGHT STYLING */
+
+    .video-two{
+        height: 393px;
+    }
+
+    /* FOOTER STYLING */
+
+    .footer > img{
+        width: 12%;
+    }
+
+    .sub-footer{
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .sub-footer-two > h3,
+    .sub-footer-two > h4{
+        margin-bottom: 0;
+    }
+
+    .footer-three{
+        width: 95%;
+    }
+
+    .sub-footer-socials{
+        width: 45%;
+    }
+}
+
+
+
+
+@media (min-width:1440px){
+    /* HEADER STYLING */
+
+    .header{
+        padding-left: 5em;
+    }
+
+    .right{
+        font-size: 1.25rem;
+    }
+
+    .slab-two{
+        left: 25em;
+    }
+
+    .slab-three{
+        width: 20%;
+    }
+
+    .slab-four{
+        width: 27%;
+    }
+}
