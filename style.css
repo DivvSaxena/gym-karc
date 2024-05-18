@@ -62,6 +62,37 @@ html,body{
     text-decoration: none;
 }
 
+.sub-header-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+.sub-header-two > ul{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.sub--header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+
+.hamburger-list > li{
+    font-family: Kenyan coffee , sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
 /* SECTION ONE STYLING */
 
 .section-first{
@@ -103,6 +134,12 @@ html,body{
     width: 40%;
     height: 40px;
     cursor: pointer;
+}
+
+.section-one > button > a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* SECTION TWO STYLING */
@@ -227,10 +264,29 @@ html,body{
 }
 
 .video-one{
-    width: 90%;
-    height: 577px;
-    background: #D9D9D9;
+    width: 95%;
+    height: 500px;
+    background-color: #888;
+    margin: 0 auto;
+    margin-top: 2.95em;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin-bottom: 1em;
+    z-index: 1;
 }
+
+.video-one > video{
+    min-width: 100%; 
+    min-height: 100%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
 
 .dark-bg{
     width: 100%;
@@ -325,6 +381,13 @@ html,body{
     margin-top: 1.5em;
 }
 
+.section-six > button > a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
 .section-six-img{
     background: url('./asset/section-six.png');
     background-size: cover;
@@ -386,11 +449,23 @@ html,body{
     cursor: pointer;
 }
 
+.btns > button > a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
 .map{
     width: 75%;
     height: 224px;
     background: #D9D9D9;
     margin: 2em auto 4em;
+}
+
+.map > iframe{
+    width: 100%;
+    height: 224px;
 }
 
 /* SECTION EIGHT STYLING */
@@ -401,13 +476,30 @@ html,body{
     align-items: center;
 }
 
+
 .video-two{
-    width: 90%;
-    height: 463px;
-    background: #BAA3A3;
-    border: 1px solid #000000;
+    width: 95%;
+    height: 500px;
+    background-color: #888;
+    margin: 0 auto;
+    margin-top: 2.95em;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
     margin: 2em auto 4em;
+    z-index: 1;
 }
+
+.video-two > video{
+    min-width: 100%; 
+    min-height: 100%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 
 /* FOOTER STYLNIG */
@@ -581,6 +673,7 @@ html,body{
         height: 51px;
     }
 
+    
     /* SECTION TWO STYLNIG */
 
     .section-two > h2{
@@ -706,10 +799,15 @@ html,body{
         margin: 2em auto 4em;
     }
 
+    .map > iframe{
+        width: 100%;
+        height: 264px;
+    }
+
     /* SECTION EIGHT STYLING */
 
     .video-two{
-        height: 393px;
+        height: 450px;
     }
 
     /* FOOTER STYLING */

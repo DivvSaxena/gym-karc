@@ -11,17 +11,25 @@
         <div class="container">
             <div class="header">
                 <img src="./asset/SVG/Asset 1.svg" alt="logo">
-                <div class="hamburger">
-                    <img src="./asset/hamburger 32x32.png" alt="hamburger">
+                <div class="hamburger"  id="hamburger">
+                    <img src="./asset/hamburger 32x32.png" alt="hamburger" id="hamburger">
                 </div>
                 <nav class="right">
                     <ul>
-                        <li><a onclick="scrollFunctionTwo()">ABOUT US</a></li>
-                        <li><a onclick="scrollFunctionThree()">COURSES</a></li>
-                        <li><a onclick="scrollFunctionFour()">FAQ & CONTACT</a></li>
+                        <li><a onclick="scrollFunctionOne()">ABOUT US</a></li>
+                        <li><a onclick="scrollFunctionTwo()">COURSES</a></li>
+                        <li><a onclick="scrollFunctionThree()">FAQ & CONTACT</a></li>
                         <li><a onclick="scrollFunctionFour()">LOCATION</a></li>
                     </ul>
                 </nav>
+            </div>
+            <div class="sub-header-two">
+                <ul class="hamburger-list" id="list">
+                    <li><a onclick="scrollFunctionOne()">ABOUT US</a></li>
+                    <li><a onclick="scrollFunctionTwo()">COURSES</a></li>
+                    <li><a onclick="scrollFunctionThree()">FAQ & CONTACT</a></li>
+                    <li><a onclick="scrollFunctionFour()">LOCATION</a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -41,7 +49,7 @@
                         Together we get the best out of you.
                     </h2>
                     <button>
-                        Contact us
+                        <a href="tel:919999790027">Contact us</a>
                     </button>
                 </div>
             </div>
@@ -64,7 +72,7 @@
 
     <section>
         <div class="container">
-            <div class="section-three">
+            <div class="section-three" id="Courses">
                 <h1>OUR COURSES</h1>
                 <div class="slab-one"></div>
                 <h2>
@@ -106,7 +114,11 @@
     <section>
         <div class="container">
             <div class="section-four">
-                <div class="video-one"></div>
+                <div class="video-one">
+                    <video loop muted autoplay>
+                        <source src="./asset/videos/video-one.mp4"  type="video/mp4"> 
+                    </video>
+                </div>
                 <div class="dark-bg"></div>
             </div>
         </div>
@@ -123,7 +135,7 @@
 
     <section>
         <div class="container">
-            <div class="section-six">
+            <div class="section-six" id="aboutUs">
                 <h1>ABOUT US</h1>
                 <div class="slab-three"></div>
                 <h2>
@@ -138,7 +150,7 @@
                     mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. 
                 </h2>
                 <button>
-                    CONTACT US
+                    <a href="tel:919999790027">Contact us</a>
                 </button>
                 <div class="section-six-img"></div>
             </div>
@@ -148,7 +160,7 @@
     <section>
         <div class="container">
             <div class="section-seven">
-                <div class="sub-section-seven-one">
+                <div class="sub-section-seven-one" id="Contact">
                     <h1>FAQ & CONTACT</h1>
                     <div class="slab-four"></div>
                     <h2>
@@ -160,11 +172,16 @@
                         personalized training!
                     </h2>
                     <div class="btns">
-                        <button>CONTACT US</button>
-                        <button>MAPS</button>
+                        <button>
+                            <a href="tel:919999790027">Contact us</a>
+                        </button>
+                        <button><a href="https://maps.app.goo.gl/PHCQ2aNkB6Q38zgN6">MAP</a></button>
                     </div>
                 </div>
-                <div class="map"></div>
+
+                <div class="map" id='location'>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.5527987323603!2d77.50803747495051!3d28.46289429176483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc1d421df2db9%3A0x286b215f28bf9f28!2sKar&#39;C%20Pro%20Fitness%20Gym!5e0!3m2!1sen!2sin!4v1716027232126!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -172,7 +189,11 @@
     <section>
         <div class="container">
             <div class="section-eight">
-                <div class="video-two"></div>
+                <div class="video-two">
+                    <video loop muted autoplay>
+                        <source src="./asset/videos/location-video.mp4"  type="video/mp4"> 
+                    </video>
+                </div>
             </div>
         </div>
     </section>
@@ -187,6 +208,8 @@
                         <h3>
                             2nd FLOOR, C-Block, Omaxe Nri City, behind Bikanerwala,
                             Pari Chowk , Greater Noida, Uttar Pradesh 201310
+                            <br>
+                            +91 9999790027
                         </h3>
                     </div>
                     <div class="footer-two">
@@ -220,5 +243,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./index.js"></script>
 </body>
 </html>
