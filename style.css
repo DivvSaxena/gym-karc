@@ -552,6 +552,10 @@ html,body{
     width: 100%;
 }
 
+.footer > h3 > a{
+    color: #fff;
+}
+
 .footer-two{
     width: 65%;
 }
